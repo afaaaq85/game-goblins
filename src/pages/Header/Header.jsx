@@ -22,7 +22,7 @@ const Header = ({toggleFunction}) => {
             <img src={UserImage} alt='User Image' />
           </a>
           <div className='user'>
-            <span>User Name</span>
+            <span>Username</span>
             <a href='#'>View Profile</a>
           </div>
         </div>
