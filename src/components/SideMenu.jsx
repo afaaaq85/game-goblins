@@ -13,7 +13,7 @@ function SideMenu({active}) {
         <div className={`sideMenu ${active ? 'active' : undefined}`}>
             <a href='#aa' className='logo'>
                 <i className="bi bi-controller"></i>
-                <span className='brand'>Play</span>
+                <span className='brand'>GameON</span>
             </a>
             <ul className='nav'>
                 {navData.map(item => (
