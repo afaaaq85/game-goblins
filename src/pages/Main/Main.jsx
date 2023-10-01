@@ -1,11 +1,13 @@
 import React from 'react'
 import './Main.css'
+import SideMenu from '../../components/SideMenu'
+
 
 function Main() {
   return (
-    <div className='main-page'>
-      <p>Main</p>
-    </div>
+    <main>
+      <SideMenu />
+    </main>
   )
 }
 
