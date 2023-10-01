@@ -54,14 +54,14 @@
     5px 5px 15px rgba(0, 0, 0, 0.35);
 }
 
-.sideMenu .social{
+ .sideMenu .social{
     position: absolute;
     bottom: 50px;
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 20px;
     transition: 0.5s;
+    gap: 20px;
 }
 
 .sideMenu .social li a{
