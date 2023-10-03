@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import UserImage from '../../images/user.jfif'
 
 const Header = () => {
   return (
@@ -16,6 +17,11 @@ const Header = () => {
           <i class="bi bi-bag-fill"></i>
           <span className='bag'>0</span>
         </a>
+        <div className='avatar'>
+          <a href='#'><img src={UserImage} alt='User Image'/></a>
+          <span>User Name</span>
+          <a href='#'>View Profile</a>
+        </div>
       </div>
     </header>
   )
